@@ -994,6 +994,7 @@ public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFacto
 							"] with [" + beanDefinition + "]");
 				}
 			}
+			// 覆盖
 			this.beanDefinitionMap.put(beanName, beanDefinition);
 		}
 		else {

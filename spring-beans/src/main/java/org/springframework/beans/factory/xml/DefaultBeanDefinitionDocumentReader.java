@@ -192,6 +192,7 @@ public class DefaultBeanDefinitionDocumentReader implements BeanDefinitionDocume
 		else if (delegate.nodeNameEquals(ele, ALIAS_ELEMENT)) {
 			processAliasRegistration(ele);
 		}
+		// 解析bean标签
 		else if (delegate.nodeNameEquals(ele, BEAN_ELEMENT)) {
 			processBeanDefinition(ele, delegate);
 		}

@@ -24,11 +24,11 @@ import org.springframework.core.ResolvableType;
 import org.springframework.lang.Nullable;
 
 /**
- * Extension of the {@link BeanFactory} interface to be implemented by bean factories
- * that can enumerate all their bean instances, rather than attempting bean lookup
- * by name one by one as requested by clients. BeanFactory implementations that
- * preload all their bean definitions (such as XML-based factories) may implement
- * this interface.
+ * 扩展 {@link BeanFactory} 接口，由 Bean 工厂实现
+ * 可以枚举其所有 Bean 实例，而不是尝试查找 Bean
+ * 根据客户要求逐一命名。BeanFactory 实现
+ * 预加载它们所有 bean 定义（例如基于 XML 的工厂）都可以实现
+ * 此接口。
  *
  * <p>If this is a {@link HierarchicalBeanFactory}, the return values will <i>not</i>
  * take any BeanFactory hierarchy into account, but will relate only to the beans

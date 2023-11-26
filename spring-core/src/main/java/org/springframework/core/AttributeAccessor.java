@@ -22,8 +22,8 @@ import org.springframework.lang.Nullable;
 import org.springframework.util.Assert;
 
 /**
- * Interface defining a generic contract for attaching and accessing metadata
- * to/from arbitrary objects.
+ * 定义用于附加和访问元数据的通用协定的接口
+ * 与任意对象之间的距离。
  *
  * @author Rob Harrop
  * @author Sam Brannen
